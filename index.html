@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Learning Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>E-Learning Platform</h1>
+  </header>
+  <main>
+    <section>
+      <h2>User Registration</h2>
+      <input type="text" id="username" placeholder="Enter your name">
+      <button onclick="registerUser()">Register</button>
+      <p id="welcome"></p>
+    </section>
+
+    <section>
+      <h2>Upload Course</h2>
+      <input type="text" id="courseTitle" placeholder="Course Title">
+      <textarea id="courseDesc" placeholder="Course Description"></textarea>
+      <button onclick="uploadCourse()">Upload</button>
+      <ul id="courseList"></ul>
+    </section>
+
+    <section>
+      <h2>Quiz</h2>
+      <div id="quizContainer"></div>
+      <button onclick="submitQuiz()">Submit Quiz</button>
+      <p id="quizResult"></p>
+    </section>
+
+    <section>
+      <h2>Progress Tracker</h2>
+      <div id="progress-bar">
+        <div id="progress"></div>
+      </div>
+      <p id="progressText">0% Completed</p>
+    </section>
+   <section>
+     <h2>Feedback</h2>
+     <textarea id="feedback" placeholder="Leave your feedback"></textarea>
+     <button onclick="submitFeedback()">Submit Feedback</button>
+   </section>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

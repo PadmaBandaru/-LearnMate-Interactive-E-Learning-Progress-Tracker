@@ -1,0 +1,56 @@
+/* CSS (styles.css) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+header {
+  background-color: #2F4F4F;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+main {
+  padding: 2rem;
+}
+section {
+  margin-bottom: 2rem;
+  background: #DCDCDC;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  margin-top: 0;
+}
+input, textarea, select, button {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+button {
+  background-color: #BC8F8F; /* Change to your desired color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #BC8F8F; /* Optional: darker shade on hover */
+}
+
+#progress-bar {
+  background: #DCDCDC;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#progress {
+  background: #DCDCDC;
+  height: 20px;
+  width: 0%;
+}
+
